@@ -1,0 +1,66 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: Time Value of Money",
+			"command": "/usr/bin/clang++",
+			"args": [
+				// activate this line if you want a debug version
+				// "-g",
+				"-std=c++17",
+				"${fileDirname}/*.cpp",
+				"-o",
+				"${workspaceFolder}/bin/tvm"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/clang++"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: Annuity",
+			"command": "/usr/bin/clang++",
+			"args": [
+				// "-g",
+				"-std=c++17",
+				"${fileDirname}/*.cpp",
+				"-o",
+				"${workspaceFolder}/bin/annuity"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/clang++"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: Settlement Between Coupon Periods",
+			"command": "/usr/bin/clang++",
+			"args": [
+				// "-g",
+				"-std=c++17",
+				"${fileDirname}/*.cpp",
+				"-o",
+				"${workspaceFolder}/bin/settlement"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/clang++"
+		}
+	]
+}
