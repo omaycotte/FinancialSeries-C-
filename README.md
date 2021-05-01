@@ -15,18 +15,18 @@ settlement  - Explains how to value a bond when the settlement date fallws betwe
 VS Code workspace structure:<br/>
   ws-folder/<br/>
   |-  .vscode/<br/>
-      |- c_cpp_properties.json<br/>
-      |- launch.json<br/>
+  	|- c_cpp_properties.json<br/>
+  	|- launch.json<br/>
       |- tasks.json<br/>
   |-  tvm/<br/>
   |-  annuity/<br/>
   |-  settlement/<br/>
   
   
-  Required:
-  c++ clang-1000.10.44.4
-  g++ 
-  
-  std-c++17
-  std-c11
+  Required:<br/>
+  c++ clang-1000.10.44.4<br/>
+  g++ <br/>
+  <br/>
+  std-c++17<br/>
+  std-c11<br/>
   
