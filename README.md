@@ -2,9 +2,9 @@
 
 Basic Financial Analysis Algorithms in C++
 
-I here you'll find basic application of Time Value Money and Bond Valuation
+As the title states, these are common basic algorithms that you'd find in most any Financial Engineering Application
 
-For this code to work, all you need to do is to create a project if you are using Visual Studio, a Makefile if you are in any Linux variant, or take the code as it is and drop it in a Visual Code project / workspace
+For this code to work, all you need to do is to create a project if you are using Visual Studio, a Makefile if you are in any Linux variant, or simply take the code as it is and drop it in a Visual Code project / workspace
 
 There are 3 folders here, each has a small example of most common applications in Financial Engineering
 tvm         - Explains Time Value of Money
