@@ -11,9 +11,20 @@ tvm         - Explains Time Value of Money
 annuity     - Explains the use of an annuity to value a bond
 settlement  - Explains how to value a bond when the settlement date fallws between coupon dates
 
+var routes = (
+  <Route name="App">
+    <Route name="Admin">
+      <Route name="Users"/>
+      <Route name="Reports"/>
+    </Route>
+    <Route name="Course">
+      <Route name="Assignments"/>
+    </Route>
+  </Route>
+);
 
 VS Code workspace structure:
-  ws-flder/
+  ws-folder/
   |-  .vscode/
       |- c_cpp_properties.json
       |- launch.json
